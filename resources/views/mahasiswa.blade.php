@@ -35,8 +35,45 @@
     </div>
   </nav>
 
-  <div class="container" style="margin-left: 30px">
+  <div class="container">
     <h1> Ini adalah halaman Mahasiswa</h1>
+    <table class="table table-primary table-sm table-hover table table-striped table-bordered text-center">
+      <thead>
+        <tr>
+          <th>NIM</th>
+          <th>Nama Mahasiswa</th>
+          <th>Jenis Kelamin</th>
+          <th colspan="2">Tempat Tanggal Lahir</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2468</td>
+          <td>Rohma Aulia</td>
+          <td>Perempuan</td>
+          <td>10-04-2004</td>
+          <td rowspan="4">Kota Medan</td>
+        </tr>
+        <tr>
+          <td>1357</td>
+          <td>Zaynep</td>
+          <td>Perempuan</td>
+          <td>11-01-2004</td>
+        </tr>
+        <tr>
+          <td>9753</td>
+          <td>Malik</td>
+          <td>Laki-Laki</td>
+          <td>14-04-2002</td>
+        </tr>
+        <tr>
+          <td>8642</td>
+          <td>Henry</td>
+          <td>Laki-Laki</td>
+          <td>10-04-2002</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
